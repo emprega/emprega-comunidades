@@ -2071,6 +2071,7 @@
 			-webkit-align-items: stretch;
 			-ms-align-items: stretch;
 			align-items: stretch;
+			vertical-align: middle;
 		}
 
 			.flex.flex-2.center, .flex.flex-3.center {
@@ -2078,10 +2079,12 @@
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
+				vertical-align: middle;
 			}
 
 		.flex.flex-2 .col {
 			width: 48%;
+			vertical-align: middle;
 		}
 
 			.flex.flex-2 .col.col1 {
